@@ -13,7 +13,7 @@ export default function Skills() {
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             I gratuaded in IT in 2004, and I've been in this field ever since.               
-            I became a polyglot programmer, having expertise in languages such as Java, Javascript, SQL
+            I became a polyglot programmer in languages such as Java, Javascript, SQL
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
