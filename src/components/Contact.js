@@ -20,7 +20,7 @@ export default function Contact() {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", name, email, message }),
         })
-            .then(() => alert("Thank yo!"))
+            .then(() => alert("Thank you!"))
             .catch((error) => alert(error));
     }
 
@@ -37,7 +37,7 @@ export default function Contact() {
                         marginHeight={0}
                         marginWidth={0}
                         style={{ filter: "opacity(0.7)" }}
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83327.37148395543!2d-123.20630413195336!3d49.25781819012711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1698966039649!5m2!1sen!2sca"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83281.28654506485!2d-122.83899173060479!3d49.28510913235424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548678c85ac25e9f%3A0x595768762eee76cf!2sCoquitlam%2C%20BC!5e0!3m2!1sen!2sca!4v1699040358947!5m2!1sen!2sca"
                     />
                     <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
@@ -45,18 +45,18 @@ export default function Contact() {
                                 ADDRESS
                             </h2>
                             <p className="mt-1">                                
-                                Greater Vancouver, British Columbia, Canada
+                                Coquitlam, British Columbia, Canada
                             </p>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                                 EMAIL
                             </h2>
-                            <a className="text-indigo-400 leading-relaxed" href = "mailto: patricia.yogi@email.com">patricia.yogi@email.com</a>                            
+                            <a className="text-indigo-400 leading-relaxed" href = "mailto: patricia.yogi@email.com">patricia.yogi@email.com</a>
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 PHONE
                             </h2>
-                            <p className="leading-relaxed" href = "tel:778-798-4214">778-798-4214</p>
+                            <a className="text-indigo-400 leading-relaxed" href = "tel:778-798-4214">778-798-4214</a>                    
                         </div>
                     </div>
                 </div>
