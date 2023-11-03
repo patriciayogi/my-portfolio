@@ -5,11 +5,9 @@
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@heroicons/react": "^1.0.1",
-    "bootstrap": "^5.3.2",
     "react": "^17.0.2",
-    "react-bootstrap": "^2.9.1",
     "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^1.1.5"
   },
   "scripts": {
     "start": "craco start",
@@ -24,8 +22,8 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.16",
-    "postcss": "^5.0.1",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   }
 }
