@@ -4,6 +4,9 @@ Portfolio Website created with React
 
 https://patriciayogi.netlify.app/
 
+<img width="1602" alt="image" src="https://github.com/patriciayogi/my-portfolio/assets/18370368/a9f13416-a9ed-4b34-ac2c-a304ec29504c">
+
+
 ## Available Scripts
 
 In the project directory, you can run:
