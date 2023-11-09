@@ -14,6 +14,9 @@ export default function Navbar() {
           <a href="https://www.linkedin.com/in/patriciayogi/" target="_blank" className="mr-5 hover:text-white">
             Linkedin
           </a>
+          <a href="https://github.com/patriciayogi" target="_blank" className="mr-5 hover:text-white">
+            Github
+          </a>
           <a href="https://koalendar.com/e/meet-with-patricia-yogi/" target="_blank" className="mr-5 hover:text-white">
             Let's Meet
           </a>
