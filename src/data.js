@@ -1,19 +1,19 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Github projects",
+    subtitle: "Templates projects",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "My code respository",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/patriciayogi?tab=repositories",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "My portfolio",
+    subtitle: "React",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "My portfolio page",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/patriciayogi/my-portfolio",
   },
   {
     title: "DevChat",

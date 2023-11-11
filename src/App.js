@@ -5,6 +5,9 @@ import Navbar from "./components/Navbar";
 
 import NoPage from "./components/NoPage";
 import Skills from "./components/Skills";
+import SecretSantaApp from "./components/projects/SecretSantaApp";
+
+
 
 export default function App() {
   return (
@@ -14,6 +17,7 @@ export default function App() {
         <Route index element={<Main />} /> 
           {/* */}
         <Route path="/skills" element={<Skills />} />
+        <Route path="/secretsanta" element={<SecretSantaApp />} />
         <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
