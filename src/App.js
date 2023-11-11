@@ -1,18 +1,22 @@
 import React from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./components/Main";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+
+import NoPage from "./components/NoPage";
 import Skills from "./components/Skills";
 
 export default function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-      <About />      
-      <Skills />
-      <Projects />      
-      <Contact />
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+        <Route index element={<Main />} /> 
+          {/* */}
+        <Route path="/skills" element={<Skills />} />
+        <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
