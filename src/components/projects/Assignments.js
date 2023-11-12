@@ -7,7 +7,6 @@ export default function Assignments({ newEvent }) {
   const handleAssignments = () => {
 
     /** 
-    
     Yumi,
     Massao,
     Celia,
@@ -24,7 +23,6 @@ export default function Assignments({ newEvent }) {
     Adriana Eigi,
     Juju,
     Kiki
-     * 
     */
 
   
