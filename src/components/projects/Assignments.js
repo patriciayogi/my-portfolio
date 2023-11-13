@@ -6,65 +6,28 @@ export default function Assignments({ newEvent }) {
 
   const handleAssignments = () => {
 
-    /** 
-    Yumi,
-    Massao,
-    Celia,
-    Yuri,
-    Marcella,
-    Haruki ,
-    Adriana Haruki,
-    Isabelli,
-    Selma,
-    Taeco,
-    Nando,
-    Deise,
-    Eigi,
-    Adriana Eigi,
-    Juju,
-    Kiki
-    */
-
-  
-    const shuffledParticipants = shuffleArray(newEvent.participants);
+    const shuffledParticipants = shuffle(newEvent.participants.length);
 
     const newAssignments = newEvent.participants.map((participant, index) => ({
       giver: participant,
-      receiver: shuffledParticipants[index],
+      receiver: newEvent.participants[shuffledParticipants[index]],
     }));
 
     setAssignments(newAssignments);
   };
 
-  const shuffleArray = (array) => {
-    const shuffledArray = [...array];
-    const participants = shuffledArray.length;
-    let drawn = shuffle(participants);
-    
-    for (let i = 1; i < participants; i++) {      
-      
-      [shuffledArray[drawn[i-1]], shuffledArray[drawn[i]]] = [shuffledArray[drawn[i]], shuffledArray[drawn[i-1]]];
-    }
-    [shuffledArray[drawn[participants-1]], shuffledArray[drawn[0]]] = [shuffledArray[drawn[0]], shuffledArray[drawn[participants-1]]];
-//    console.log(`shuffledArray ${shuffledArray} `);
-// TODO fix
-    return shuffledArray;
-  };
-
   const shuffle = (participants) => {
-    let drawn = [];
-    
+    let shuffled = [];
     for (let i = 0; i < participants; i++) {
       let j = -1;
-      while (drawn.includes(j) || j==-1 || j==i+1){
+      while (shuffled.includes(j) || j==-1 || j==i-1){
         j = Math.floor(Math.random() * participants);
         if (i==participants-1 && i==j)
           return shuffle(participants);
       }        
-      drawn.push(j);
+      shuffled.push(j);
     }
-    console.log(`drawn ${drawn} `);    
-    return drawn;
+    return shuffled;
   }  
 
   return (
