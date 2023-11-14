@@ -10,8 +10,8 @@ export default function SecretSantaApp() {
   };
 
   return (
-    <div className="text-gray-400 bg-gray-900 body-font">
-      
+    <div className="px-40 py-7 text-gray-400 bg-gray-900 body-font">
+
       <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
         Secret Santa
       </h1>
@@ -19,7 +19,7 @@ export default function SecretSantaApp() {
       {!event ? (
         <EventForm onCreateEvent={handleEventCreation} />
       ) : (
-        <Assignments newEvent={event} />
+        <Assignments resetEvent={handleEventCreation} newEvent={event} />
       )}
 
     </div>

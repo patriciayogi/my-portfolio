@@ -22,11 +22,10 @@ const EventForm = ({ onCreateEvent }) => {
   return (
     <section id="event">
 
+      <div className="container py-7 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div className="mb-20">
 
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="text-center mb-20">
-
-          <h3 className="text-white sm:text-4xl text-2xl mb-1 font-medium title-font">
+          <h3 className="text-white sm:text-2xl mb-1 font-medium title-font">
             New Event
           </h3>
          
@@ -44,7 +43,7 @@ const EventForm = ({ onCreateEvent }) => {
 
           </div>
 
-          <div className="relative mb-4">
+          <div className="relative mb-4" >
 
             <label
               htmlFor="message"
@@ -66,8 +65,7 @@ const EventForm = ({ onCreateEvent }) => {
             Create Event
           </button>
 
-
-
+          
         </div>
       </div>
     </section>
