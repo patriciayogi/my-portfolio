@@ -1,5 +1,6 @@
 {
   "name": "patricia-portfolio",
+  "homepage": "https://patriciayogi.github.io/my-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,8 +11,10 @@
     "react-scripts": "^1.1.5"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "cstart": "craco start",
+    "cbuild": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
