@@ -3,30 +3,29 @@ export const projects = [
     title: "Github projects",
     subtitle: "Templates projects",
     description: "My code respository",
-    image: "./project-1.gif",
+    image: "./my-portfolio/project-1.gif",
     link: "https://github.com/patriciayogi?tab=repositories",
   },
   {
     title: "My portfolio",
     subtitle: "React",
     description: "My portfolio page",
-    image: "./project-2.gif",
+    image: "./my-portfolio/project-2.gif",
     link: "https://github.com/patriciayogi/my-portfolio",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    title: "Secret Santa",
+    subtitle: "Secret Santa",
+    description: "Secret Santa Game",
+    image: "./my-portfolio/project-3.gif",
+    link: "https://github.com/patriciayogi/secretsanta",
   },
   {
     title: "Epic Todo App",
     subtitle: "React Hooks",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
+    image: "./my-portfolio/project-4.gif",
     link: "https://reactbootcamp.com",
   },
 ];
