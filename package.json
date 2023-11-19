@@ -1,5 +1,5 @@
 {
-  "name": "patricia-portfolio",
+  "name": "my-portfolio",
   "homepage": "https://patriciayogi.github.io/my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
     "cbuild": "craco build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
