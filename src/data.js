@@ -2,16 +2,14 @@ export const projects = [
   {
     title: "Github projects",
     subtitle: "Templates projects",
-    description:
-      "My code respository",
+    description: "My code respository",
     image: "./project-1.gif",
     link: "https://github.com/patriciayogi?tab=repositories",
   },
   {
     title: "My portfolio",
     subtitle: "React",
-    description:
-      "My portfolio page",
+    description: "My portfolio page",
     image: "./project-2.gif",
     link: "https://github.com/patriciayogi/my-portfolio",
   },
@@ -50,11 +48,4 @@ export const testimonials = [
   },
 ];
 
-export const skills = [
-  "Java",
-  "Spring",
-  "JavaScript",
-  "React",  
-  "Node",
-  "SQL",  
-];
+export const skills = ["Java", "Spring", "JavaScript", "React", "Node", "SQL"];
