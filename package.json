@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-  "homepage": ".my-portfolio",
+  "homepage": "./my-portfolio",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
