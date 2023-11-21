@@ -1,8 +1,8 @@
 {
   "name": "my-portfolio",
-  "homepage": "https://patriciayogi.github.io/my-portfolio",
+  "homepage": ".my-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@heroicons/react": "^1.0.1",
