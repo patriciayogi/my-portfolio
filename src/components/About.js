@@ -14,11 +14,12 @@ export default function About() {
           </p>
           <div className="flex justify-center">
             <a
-              href="#contact"
+              href="https://koalendar.com/e/meet-with-patricia-yogi/"
+              target="_blank"
               data-target="#exampleModal"
               className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
             >
-              Let's connect
+              Let's chat
             </a>
             {/*  <a
                   href="#projects"

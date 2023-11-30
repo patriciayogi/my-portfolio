@@ -39,7 +39,7 @@ export default function Skills() {
           >
             Linkedin
           </a>
-          to find details about my professional experience
+          to find more details about my professional experience
         </p>
       </div>
     </section>
