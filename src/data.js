@@ -13,38 +13,18 @@ export const projects = [
     image: "./project-2.gif",
     link: "https://github.com/patriciayogi/my-portfolio",
   },
-  {
-    title: "Secret Santa",
-    subtitle: "Secret Santa",
-    description: "Secret Santa Game",
-    image: "./project-3.gif",
-    link: "https://github.com/patriciayogi/secretsanta",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./my-portfolio/project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
-];
+const now = new Date();
+const year = now.getFullYear();
+const springStart = 2016;
+const awsStart = 2020;
 
-export const skills = ["Java", "Spring", "JavaScript", "React", "Node", "SQL"];
+export const skills = [
+  "+10 years Java",
+  `${year - springStart} years Spring`,
+  `${year - springStart} years SQL`,
+  `${year - springStart} years Microservice`,
+  `${year - awsStart}  years AWS`,
+  `${year - awsStart} years React`,
+];
