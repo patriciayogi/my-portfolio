@@ -31,7 +31,7 @@ export default function Navbar() {
               target="_blank"
               className="mr-5 hover:text-white"
             >
-              Let's Meet
+              Book a meeting
             </a>
             <a href="#skills">Skills</a>
             {/* <Link to="/skills" className="mr-5 hover:text-white">Skills</Link> */}
