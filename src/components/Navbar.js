@@ -26,6 +26,10 @@ export default function Navbar() {
             >
               Github
             </a>
+
+            <a href="#skills" className="mr-5 hover:text-white">
+              Skills
+            </a>
             <a
               href="https://koalendar.com/e/meet-with-patricia-yogi/"
               target="_blank"
@@ -33,7 +37,6 @@ export default function Navbar() {
             >
               Book a meeting
             </a>
-            <a href="#skills">Skills</a>
             {/* <Link to="/skills" className="mr-5 hover:text-white">Skills</Link> */}
           </nav>
           <a
