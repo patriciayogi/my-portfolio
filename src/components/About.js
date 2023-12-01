@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "./Patricia_CV.pdf";
 
 export default function About() {
   return (
@@ -21,12 +22,13 @@ export default function About() {
             >
               Let's meet
             </a>
-            {/*  <a
-                  href="#projects"
-                  data-toggle="modal"
-                  className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                  See My Past Work
-                </a> */}
+            <a
+              href={resume}
+              target="_blank"
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+            >
+              My resume
+            </a>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

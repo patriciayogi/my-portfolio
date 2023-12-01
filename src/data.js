@@ -17,14 +17,14 @@ export const projects = [
 
 const now = new Date();
 const year = now.getFullYear();
-const springStart = 2016;
-const awsStart = 2020;
+const SPRING_START_YEAR = 2016;
+const AWS_START_YEAR = 2020;
 
 export const skills = [
   "+10 years Java",
-  `${year - springStart} years Spring`,
-  `${year - springStart} years SQL`,
-  `${year - springStart} years Microservice`,
-  `${year - awsStart}  years AWS`,
-  `${year - awsStart} years React`,
+  `${year - SPRING_START_YEAR} years Spring`,
+  `${year - SPRING_START_YEAR} years SQL`,
+  `${year - SPRING_START_YEAR} years Microservice`,
+  `${year - AWS_START_YEAR}  years AWS`,
+  `${year - AWS_START_YEAR} years React`,
 ];
